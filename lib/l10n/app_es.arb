@@ -1,0 +1,54 @@
+{
+    "@@locale": "es",
+    "helloWorld": "Hello World!",
+    "language": "{languageCode, select, en{English} tr{Turkish} es{Spanish}}",
+    "@language": {
+        "description": "Language name",
+        "placeholders": {
+            "languageCode": {
+                "type": "String",
+                "example": "en"
+            }
+        }
+    },
+    "formValidatorRequired": "This area can not be empty.",
+    "formValidatorMinimumCharCount": "This area must have at least {charCount} character.",
+    "@formValidatorMinimumCharCount": {
+        "placeholders": {
+            "charCount": {}
+        }
+    },
+    "formValidatorMaximumCharCount": "This area must have at most {charCount} character.",
+    "@formValidatorMaximumCharCount": {
+        "placeholders": {
+            "charCount": {}
+        }
+    },
+    "formValidatorIsEmail": "E-mail is not valid.",
+    "formValidatorMatchedString": "Areas does not match.",
+    "emailAlreadyInUse": "emailAlreadyInUse",
+    "invalidEmail": "invalidEmail",
+    "operationNotAllowed": "operationNotAllowed",
+    "weakPassword": "weakPassword",
+    "userDisabled": "userDisabled",
+    "userNotFound": "userNotFound",
+    "wrongPassword": "Wrong Password",
+    "requiresRecentLogin": "requiresRecentLogin",
+    "userMismatch": "userMismatch",
+    "invalidCredential": "invalidCredential",
+    "invalidVerificationCode": "invalidVerificationCode",
+    "invalidVerificationId": "invalidVerificationId",
+    "tooManyRequests": "We have blocked all requests from this device due to unusual activity. Try again later.",
+    "registeredSuccessfully": "Registered successfully.",
+    "loginSuccessfully": "Login successfully.",
+
+    "categories": "{categoryId, select, 0{Electronic} 0_0{Computers} 0_0_0{Laptops} 0_0_1{Desktop Computers} 0_1{Phones} 0_1_0{Android Phones} 1{Fashion - Clothing} other{Unknown}}",
+    "@categories": {
+        "description": "Categories name",
+        "placeholders": {
+            "categoryId": {
+                "type": "String"
+            }
+        }
+    }
+}
